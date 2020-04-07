@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/fallback")
 public class HystrixController {
 
-    @GetMapping("/message")
-    public String test() {
-        return "Called in Fallback Service";
-    }
+  @GetMapping("/message")
+  public String test() {
+    return "Called in Fallback Service";
+  }
 
 }
